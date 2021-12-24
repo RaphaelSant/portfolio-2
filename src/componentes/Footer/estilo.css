@@ -1,0 +1,26 @@
+.footer {
+    background-color: #A6351C;
+    color: #fff;
+}
+
+.icon_footer {
+    width: 40px;
+    margin: 0px 15px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.icon_footer:hover {
+    opacity: 1;
+}
+
+@keyframes blinker { to { opacity: 0; } }
+.contato {
+    color: rgb(252, 252, 252);
+    animation: blinker 0.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+}
+
+.contato:hover {
+    color: #261E1E;
+}
+
