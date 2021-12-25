@@ -1,6 +1,7 @@
 .footer {
     background-color: #A6351C;
     color: #fff;
+    width: 100%;
 }
 
 .icon_footer {
@@ -23,4 +24,3 @@
 .contato:hover {
     color: #261E1E;
 }
-

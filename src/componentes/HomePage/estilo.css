@@ -1,0 +1,52 @@
+.homepage {
+    min-height: calc(100vh - 80px);
+    background-color: #261E1E;
+    font-family: 'Lato', sans-serif;
+    color: #D7D9D8;
+    padding: 50px;
+}
+
+.profile {
+    border-radius: 30%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 20px 25px -5px, rgba(255, 255, 255, 0.04) 0px 10px 10px -5px;
+}
+
+.texto {
+    margin: 15px;
+}
+
+.cardHP {
+    background-color: #A6351C;
+    border-radius: 15px;
+    width: 260px;
+    height: 90px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+.cardHP:hover {
+    background-color: #db4726;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -28px 36px -50px inset;
+}
+
+.imgCard {
+    width: 40px;
+}
+
+
+.cardHP:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.link {
+    text-decoration: none;
+    color: #D7D9D8;
+}
+.link:hover {
+    text-decoration: none;
+    color: #D7D9D8;
+}

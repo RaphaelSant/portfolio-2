@@ -1,6 +1,5 @@
 import React from "react";
 import "./estilo.css";
-import { Link } from "react-router-dom";
 
 import InstagramIcon from "../../assets/imagens/Instagram_Icon.png";
 import GitHubIcon from "../../assets/imagens/GitHub_Icon.png";
