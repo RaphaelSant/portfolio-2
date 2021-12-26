@@ -3,7 +3,6 @@
     background-color: #261E1E;
     font-family: 'Lato', sans-serif;
     color: #D7D9D8;
-    padding: 50px;
 }
 
 .profile {
@@ -46,7 +45,14 @@
     text-decoration: none;
     color: #D7D9D8;
 }
+
 .link:hover {
     text-decoration: none;
     color: #D7D9D8;
+}
+
+@media (max-width: 600px) {
+    .homepage {
+        min-height: calc(100vh - 186px);
+    }
 }
