@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
     return(
         <>
-            <nav class="navbar navbar-expand-lg navbar-light bg-navbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-navbar fixed-top">
                 <div className="container">
                     <Link to="/" className="rms d-flex align-items-center">
                         <img src={Profile} alt="Imagem de Perfil" className="img-navbar mr-4"/>
