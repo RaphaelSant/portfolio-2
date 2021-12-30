@@ -1,4 +1,5 @@
 import React from "react";
+import smoothscroll from "../ScrollToTop";
 import Footer from "../Footer";
 import Navbar from "../NavBar";
 import "./estilo.css";
@@ -10,7 +11,7 @@ import Projeto from "../../assets/imagens/Projeto.jpg";
 function Portfolio() {
     return (
         <>
-            
+            {smoothscroll()}
             <Navbar />
 
             <div className="bd-example carousel-estilo">

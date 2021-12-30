@@ -1,0 +1,57 @@
+.curriculo-titulo {
+    margin-top: 90px;
+    color: #D7D9D8;
+}
+
+.curriculo-subtitulo {
+    color: #D7D9D8;
+}
+
+.cor-card {
+    background-color: #D7D9D8;
+}
+
+.cor-card-skills {
+    background-color: #A6351C;
+    color: #D7D9D8;
+    transition: 0.5s;
+}
+
+.cor-card-skills-active:hover {
+    background-color: #db4726;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #D7D9D8;
+}
+
+.p-title {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.bnt-curriculo {
+    width: 100%;
+    background-color: #A6351C;
+    margin-top: 20px;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+.bnt-curriculo a {
+    text-decoration: none;
+    color: #D7D9D8;
+}
+
+.bnt-curriculo:hover {
+    background-color: #db4726;
+    box-shadow: rgba(199, 2, 2, 0.35) 0px -28px 36px -50px inset;
+}
