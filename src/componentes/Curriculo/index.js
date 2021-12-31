@@ -56,8 +56,8 @@ function Curriculo() {
                                 <h5 class="card-title text-center">Planos Futuros</h5>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item cor-card">Node/Express</li>
-                                    <li class="list-group-item cor-card">React Native</li>
                                     <li class="list-group-item cor-card">Java</li>
+                                    <li class="list-group-item cor-card">React Native</li>
                                     <li></li>
                                 </ul>
                             
@@ -91,14 +91,34 @@ function Curriculo() {
                         <div class="col-md-12 cor-card-skills card mt-3 p-3">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item cor-card-skills text-center">HardSkills</li>
-                                <a href="www.google.com" className="list-group-item cor-card-skills cor-card-skills-active" target=""><li class="">DiplomaX.pdf</li></a>
-                                <li class="list-group-item cor-card-skills">CertificadoX.pdf</li>
-                                <li class="list-group-item cor-card-skills">CertificadoX.pdf</li>
-                                <li class="list-group-item cor-card-skills">CertificadoX.pdf</li>
-                                <li class="list-group-item cor-card-skills">CertificadoX.pdf</li>
-                                <li class="list-group-item cor-card-skills">CertificadoX.pdf</li>
+                                
+                                <a href="www.google.com" className="list-group-item cor-card-skills cor-card-skills-active" target="">
+                                    <li class="">DiplomaX.pdf</li>
+                                </a>
+                                
+                                <a href="www.google.com" className="list-group-item cor-card-skills cor-card-skills-active" target="">
+                                    <li class="">CertificadoX.pdf</li>
+                                </a>
+
+                                <a href="www.google.com" className="list-group-item cor-card-skills cor-card-skills-active" target="">
+                                    <li class="">CertificadoX.pdf</li>
+                                </a>
+
+                                <a href="www.google.com" className="list-group-item cor-card-skills cor-card-skills-active" target="">
+                                    <li class="">CertificadoX.pdf</li>
+                                </a>
+
+                                <a href="www.google.com" className="list-group-item cor-card-skills cor-card-skills-active" target="">
+                                    <li class="">CertificadoX.pdf</li>
+                                </a>
+
+                                <a href="www.google.com" className="list-group-item cor-card-skills cor-card-skills-active" target="">
+                                    <li class="">CertificadoX.pdf</li>
+                                </a>
                             </ul>
+
                             <br/>
+                            
                             <ul class="list-group list-group-flush mt-3">
                                 <li class="list-group-item cor-card-skills text-center">SoftSkills</li>
                                 <li class="list-group-item cor-card-skills">Pro-ativo</li>

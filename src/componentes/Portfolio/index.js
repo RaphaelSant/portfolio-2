@@ -3,9 +3,6 @@ import smoothscroll from "../ScrollToTop";
 import Footer from "../Footer";
 import Navbar from "../NavBar";
 import "./estilo.css";
-import img1 from "../../assets/imagens/1.jfif";
-import img2 from "../../assets/imagens/2.png";
-import img3 from "../../assets/imagens/3.webp";
 import Projeto from "../../assets/imagens/Projeto.jpg";
 
 import SDS2 from "../../assets/projetos/DsDelivery.PNG";
