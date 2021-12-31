@@ -8,6 +8,15 @@ import img2 from "../../assets/imagens/2.png";
 import img3 from "../../assets/imagens/3.webp";
 import Projeto from "../../assets/imagens/Projeto.jpg";
 
+import SDS2 from "../../assets/projetos/DsDelivery.PNG";
+import PousadaSecreta from "../../assets/projetos/PousadaSecreta.PNG";
+import PrimeiroPortifolio from "../../assets/projetos/PrimeiroPortifolio.PNG";
+import SDS3 from "../../assets/projetos/DsVendas.PNG";
+import CriandoRotas from "../../assets/projetos/CriandoRotas.PNG";
+import CaminhoDoSaber from "../../assets/projetos/CaminhoDoSaber.PNG";
+import FrutaEFruto from "../../assets/projetos/FrutaEFruto.PNG";
+
+
 function Portfolio() {
     return (
         <>
@@ -20,29 +29,73 @@ function Portfolio() {
                         <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
                     </ol>
                     <div className="carousel-inner">
-                            <div className="carousel-item active">
-                                <img src={img1} className="d-block w-100" alt="..." />
-                                <div className="carousel-caption d-none d-md-block texto-carousel">
-                                    <a href="https://www.google.com" target="_blank" rel="noreferrer">
-                                    <h5>Projeto 1</h5>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                    </a>
-                                </div>
-                            </div>
-                        <div className="carousel-item">
-                            <img src={img2} className="d-block w-100" alt="..." />
+
+                        <div className="carousel-item active">
+                            <img src={SDS2} className="d-block w-100" alt="..." />
                             <div className="carousel-caption d-none d-md-block texto-carousel">
-                            <h5>Second slide label</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <a href="https://sds2-raphael-santiago.netlify.app/" className="carousel-link" target="_blank" rel="noreferrer">
+                                    <h5>Semana DevSuperior 2</h5>
+                                </a>
                             </div>
                         </div>
+
                         <div className="carousel-item">
-                            <img src={img3} className="d-block w-100" alt="..." />
+                            <img src={PousadaSecreta} className="d-block w-100" alt="..." />
                             <div className="carousel-caption d-none d-md-block texto-carousel">
-                            <h5>Third slide label</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                <a href="https://raphaelsant.github.io/PousadaSecreta/" className="carousel-link" target="_blank" rel="noreferrer">
+                                    <h5>Pousada Secreta</h5>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="carousel-item">
+                            <img src={PrimeiroPortifolio} className="d-block w-100" alt="..." />
+                            <div className="carousel-caption d-none d-md-block texto-carousel">
+                                <a href="https://raphaelsant.github.io/Portfolio/" className="carousel-link" target="_blank" rel="noreferrer">
+                                    <h5>1° Portfólio</h5>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="carousel-item">
+                            <img src={SDS3} className="d-block w-100" alt="..." />
+                            <div className="carousel-caption d-none d-md-block texto-carousel">
+                                <a href="https://dsvendas-raphaelsantiago.netlify.app/" className="carousel-link" target="_blank" rel="noreferrer">
+                                    <h5>Semana DevSuperior 3</h5>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="carousel-item">
+                            <img src={CriandoRotas} className="d-block w-100" alt="..." />
+                            <div className="carousel-caption d-none d-md-block texto-carousel">
+                                <a href="https://criandorotas.netlify.app/" className="carousel-link" target="_blank" rel="noreferrer">
+                                    <h5>Criando Rotas ReactJS</h5>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="carousel-item">
+                            <img src={CaminhoDoSaber} className="d-block w-100" alt="..." />
+                            <div className="carousel-caption d-none d-md-block texto-carousel">
+                                <a href="https://caminhodosaber.netlify.app/" className="carousel-link" target="_blank" rel="noreferrer">
+                                    <h5>Caminho do Saber - FreeLancer</h5>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="carousel-item">
+                            <img src={FrutaEFruto} className="d-block w-100" alt="..." />
+                            <div className="carousel-caption d-none d-md-block texto-carousel">
+                                <a href="https://raphaelsant.github.io/Fruta-e-Fruto/" className="carousel-link" target="_blank" rel="noreferrer">
+                                    <h5>Fruta & Fruto</h5>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -65,15 +118,15 @@ function Portfolio() {
                     <div className="row justify-content-center">
                         <div className="col flex-center mt-4">
                             <div className="card port-card h-100">
-                                <img src={Projeto} class="card-img-top" alt="..." />
+                                <img src={SDS2} class="card-img-top" alt="Semana DevSuperior 2" />
                                 <div className="card-body flex-body-center">
                                     <div>
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 className="card-title">Semana DevSuperior 2</h5>
+                                        <p className="card-text">Projeto elaborado na semana de conhecimento DevSuperior 2 com o professor Nélio Alves.</p>
                                     </div>
                                     <div>
-                                        <a href="https:www.google.com" className="btn btn-primary w-100 mt-2" target="_blank" rel="noreferrer">Acessar Projeto</a>
-                                        <a href="https:www.google.com" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
+                                        <a href="https://sds2-raphael-santiago.netlify.app/" className="btn btn-primary w-100 mt-2" target="_blank" rel="noreferrer">Acessar Projeto</a>
+                                        <a href="https://github.com/RaphaelSant/dsdeliver-sds2" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
                                     </div>
                                 </div>
                             </div>
@@ -81,15 +134,15 @@ function Portfolio() {
 
                         <div className="col flex-center mt-4">
                             <div className="card port-card h-100">
-                                <img src={Projeto} class="card-img-top" alt="..." />
+                                <img src={PousadaSecreta} class="card-img-top" alt="Pousada Secreta" />
                                 <div className="card-body flex-body-center">
                                     <div>
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 className="card-title">Pousada Secreta</h5>
+                                        <p className="card-text">Site com objetivo didádico elaborado na plataforma DevMedia.</p>
                                     </div>
                                     <div>
-                                        <a href="https:www.google.com" className="btn btn-primary w-100 mt-2" target="_blank" rel="noreferrer">Acessar Projeto</a>
-                                        <a href="https:www.google.com" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
+                                        <a href="https://raphaelsant.github.io/PousadaSecreta/" className="btn btn-primary w-100 mt-2" target="_blank" rel="noreferrer">Acessar Projeto</a>
+                                        <a href="https://github.com/RaphaelSant/PousadaSecreta" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
                                     </div>
                                 </div>
                             </div>
@@ -97,15 +150,15 @@ function Portfolio() {
 
                         <div className="col flex-center mt-4">
                             <div className="card port-card h-100">
-                                <img src={Projeto} class="card-img-top" alt="..." />
+                                <img src={PrimeiroPortifolio} class="card-img-top" alt="..." />
                                 <div className="card-body flex-body-center">
                                     <div>
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 className="card-title">1° Portfólio</h5>
+                                        <p className="card-text">O objetivo foi mostrar minhas habilidades e experiência na área de programação conquistados na época que desenvolvi.</p>
                                     </div>
                                     <div>
-                                        <a href="https:www.google.com" className="btn btn-primary w-100 mt-2" target="_blank" rel="noreferrer">Acessar Projeto</a>
-                                        <a href="https:www.google.com" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
+                                        <a href="https://raphaelsant.github.io/Portfolio/" className="btn btn-primary w-100 mt-2" target="_blank" rel="noreferrer">Acessar Projeto</a>
+                                        <a href="https://github.com/RaphaelSant/Portfolio" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
                                     </div>
                                 </div>
                             </div>
@@ -115,15 +168,15 @@ function Portfolio() {
 
                         <div className="col flex-center mt-4">
                             <div className="card port-card h-100">
-                                <img src={Projeto} class="card-img-top" alt="..." />
+                                <img src={SDS3} class="card-img-top" alt="..." />
                                 <div className="card-body flex-body-center">
                                     <div>
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 className="card-title">Semana DevSuperior 3</h5>
+                                        <p className="card-text">Projeto elaborado na semana de conhecimento DevSuperior 3 com o professor Nélio Alves.</p>
                                     </div>
                                     <div>
-                                        <a href="https:www.google.com" className="btn btn-primary w-100 mt-2" target="_blank" rel="noreferrer">Acessar Projeto</a>
-                                        <a href="https:www.google.com" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
+                                        <a href="https://dsvendas-raphaelsantiago.netlify.app/" className="btn btn-primary w-100 mt-2" target="_blank" rel="noreferrer">Acessar Projeto</a>
+                                        <a href="https://github.com/RaphaelSant/projeto-sds3" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
                                     </div>
                                 </div>
                             </div>
@@ -131,15 +184,15 @@ function Portfolio() {
 
                         <div className="col flex-center mt-4">
                             <div className="card port-card h-100">
-                                <img src={Projeto} class="card-img-top" alt="..." />
+                                <img src={CriandoRotas} class="card-img-top" alt="..." />
                                 <div className="card-body flex-body-center">
                                     <div>
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 className="card-title">Criando Rotas ReactJS</h5>
+                                        <p className="card-text">Criando rotas para navegação e troca de componentes no ReactJS.</p>
                                     </div>
                                     <div>
-                                        <a href="https:www.google.com" className="btn btn-primary w-100 mt-2" target="_blank" rel="noreferrer">Acessar Projeto</a>
-                                        <a href="https:www.google.com" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
+                                        <a href="https://criandorotas.netlify.app/" className="btn btn-primary w-100 mt-2" target="_blank" rel="noreferrer">Acessar Projeto</a>
+                                        <a href="https://github.com/RaphaelSant/criando-rotas" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
                                     </div>
                                 </div>
                             </div>
@@ -150,16 +203,67 @@ function Portfolio() {
                                 <img src={Projeto} class="card-img-top" alt="..." />
                                 <div className="card-body flex-body-center">
                                     <div>
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 className="card-title">ByteBank - OO</h5>
+                                        <p className="card-text">Curso de Orientação a Objetos com JavaScript - Alura.</p>
                                     </div>
                                     <div>
-                                        <a href="https:www.google.com" className="btn btn-primary w-100 mt-2" target="_blank" rel="noreferrer">Acessar Projeto</a>
-                                        <a href="https:www.google.com" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
+                                        <a href="https:www.google.com" className="btn btn-primary w-100 mt-2 disabled" target="_blank" rel="noreferrer">Acessar Projeto</a>
+                                        <a href="https://github.com/RaphaelSant/ByteBank" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <div className="w-100"></div>
+
+                        <div className="col flex-center mt-4">
+                            <div className="card port-card h-100">
+                                <img src={Projeto} class="card-img-top" alt="Semana DevSuperior 2" />
+                                <div className="card-body flex-body-center">
+                                    <div>
+                                        <h5 className="card-title">Ceep - Cadastro de Notas</h5>
+                                        <p className="card-text">Sistema de cadastro de notas desenvolvido como aprendizado na Alura.</p>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.google.com" className="btn btn-primary w-100 mt-2 disabled" target="_blank" rel="noreferrer">Acessar Projeto</a>
+                                        <a href="https://github.com/RaphaelSant/ceep" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col flex-center mt-4">
+                            <div className="card port-card h-100">
+                                <img src={CaminhoDoSaber} class="card-img-top" alt="Pousada Secreta" />
+                                <div className="card-body flex-body-center">
+                                    <div>
+                                        <h5 className="card-title">Caminho do Saber - FreeLancer</h5>
+                                        <p className="card-text">Site da Escola educacional inovadora Caminho do Saber.</p>
+                                    </div>
+                                    <div>
+                                        <a href="https://caminhodosaber.netlify.app/" className="btn btn-primary w-100 mt-2" target="_blank" rel="noreferrer">Acessar Projeto</a>
+                                        <a href="https://github.com/RaphaelSant/Caminho-do-Saber" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col flex-center mt-4">
+                            <div className="card port-card h-100">
+                                <img src={FrutaEFruto} class="card-img-top" alt="..." />
+                                <div className="card-body flex-body-center">
+                                    <div>
+                                        <h5 className="card-title">Fruta & Fruto</h5>
+                                        <p className="card-text">Site desenvolvido em aula na plataforma Alura tendo como aprendizado principal o Bootstrap 4.3.</p>
+                                    </div>
+                                    <div>
+                                        <a href="https://raphaelsant.github.io/Fruta-e-Fruto/" className="btn btn-primary w-100 mt-2" target="_blank" rel="noreferrer">Acessar Projeto</a>
+                                        <a href="https://github.com/RaphaelSant/Fruta-e-Fruto" className="btn btn-dark w-100 mt-2" target="_blank" rel="noreferrer">Acessar GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+
 
                     </div>
                 </div>
