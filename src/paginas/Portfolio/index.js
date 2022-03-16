@@ -1,7 +1,7 @@
 import React from "react";
-import smoothscroll from "../ScrollToTop";
-import Footer from "../Footer";
-import Navbar from "../NavBar";
+import smoothscroll from "../../componentes/ScrollToTop.js";
+import Footer from "../../componentes/Footer";
+import Navbar from "../../componentes/NavBar";
 import "./estilo.css";
 import Projeto from "../../assets/imagens/Projeto.jpg";
 
@@ -12,11 +12,12 @@ import SDS3 from "../../assets/projetos/DsVendas.PNG";
 import CriandoRotas from "../../assets/projetos/CriandoRotas.PNG";
 import CaminhoDoSaber from "../../assets/projetos/CaminhoDoSaber.PNG";
 import FrutaEFruto from "../../assets/projetos/FrutaEFruto.PNG";
-
+import Helmet from 'react-helmet';
 
 function Portfolio() {
     return (
         <>
+            <Helmet title="Raphael Santiago - Portfólio" />
             {smoothscroll()}
             <Navbar />
 

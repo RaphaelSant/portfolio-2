@@ -1,13 +1,15 @@
 import React from "react";
 import "./estilo.css";
-import Navbar from "../NavBar"
-import Footer from "../Footer";
-import smoothscroll from "../ScrollToTop";
+import Navbar from "../../componentes/NavBar"
+import Footer from "../../componentes/Footer";
+import smoothscroll from "../../componentes/ScrollToTop";
+import Helmet from 'react-helmet';
 
 function Curriculo() {
     
     return(
         <>
+            <Helmet title="Raphael Santiago - Currículo" />
             {smoothscroll()}
             <Navbar />
             <div className="container mb-4">

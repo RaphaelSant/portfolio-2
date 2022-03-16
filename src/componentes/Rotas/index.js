@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import HomePage from "../HomePage";
-import Portfolio from "../Portfolio";
-import Curriculo from "../Curriculo";
+import HomePage from "../../paginas/HomePage";
+import Portfolio from "../../paginas/Portfolio";
+import Curriculo from "../../paginas/Curriculo";
 
 function Rotas() {
     return (
