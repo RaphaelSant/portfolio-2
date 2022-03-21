@@ -1,10 +1,15 @@
 .bg-portifolio, body {
-    background-color: #261E1E;
+    background: linear-gradient(180deg, rgba(153, 79, 30, 1) 0%, rgba(38, 30, 30, 1) 100%);
 }
 
 .carousel-estilo {
-    margin-top: 56px;
-    width: 100%;
+    width: 70%;
+    margin: 64px auto 0 auto;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 40px !important;
+    height: 20px !important;
 }
 
 .card-img-top {
@@ -15,8 +20,9 @@
 }
 
 .carousel-estilo img {
-    height: 400px;
+    height: 300px;
     object-fit: cover;
+    opacity: 1;
 }
 
 .carousel-link {
@@ -70,10 +76,13 @@
     justify-content: space-between;
 }
 
-
-
-@media (min-width: 992px) {
+@media (max-width: 992px) {
     .carousel-estilo {
-        margin-top: 64px;
+        margin-top: 56px;
+        width: 100%;
+    }
+    .carousel-estilo img {
+        height: 300px;
+        object-fit: fill;
     }
 }
