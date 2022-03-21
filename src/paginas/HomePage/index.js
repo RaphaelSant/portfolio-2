@@ -12,7 +12,7 @@ function HomePage() {
         <>
             <Helmet title="Raphael Santiago - Página Inicial" />
             <div className="homepage d-flex flex-column justify-content-center align-items-center">
-                <div className="glass">
+                <div className="glass p-4 m-3">
                     <img src={Profile} alt="Imagem de perfil" className="profile" />
                     <p className="m-4 texto">Olá mundo! Eu sou Raphael Santiago</p>
                     <Link to="/portfolio" className="link">
