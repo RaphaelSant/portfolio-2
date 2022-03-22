@@ -98,27 +98,27 @@ function Portfolio() {
                         </div>
                     </div>
                     <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Previous</span>
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Previous</span>
                     </a>
                     <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Next</span>
                     </a>
                 </div>
             </div>
-            
+
             <div className="mt-4 container">
                 <h1 className="port-titulo text-center">Projetos no GitHub</h1>
-                
+
                 <div className="text-light mt-1 ">
-                
+
                     <div className="row justify-content-center">
                         <div className="col flex-center mt-4">
                             <div className="card port-card h-100">
                                 <img src={SDS2} class="card-img-top" alt="Semana DevSuperior 2" />
                                 <div className="card-body flex-body-center">
-                                    <div>
+                                    <div className="card-content">
                                         <h5 className="card-title">Semana DevSuperior 2</h5>
                                         <p className="card-text">Projeto elaborado na semana de conhecimento DevSuperior 2 com o professor Nélio Alves.</p>
                                     </div>
@@ -134,7 +134,7 @@ function Portfolio() {
                             <div className="card port-card h-100">
                                 <img src={PousadaSecreta} class="card-img-top" alt="Pousada Secreta" />
                                 <div className="card-body flex-body-center">
-                                    <div>
+                                    <div className="card-content">
                                         <h5 className="card-title">Pousada Secreta</h5>
                                         <p className="card-text">Site com objetivo didádico elaborado na plataforma DevMedia.</p>
                                     </div>
@@ -150,7 +150,7 @@ function Portfolio() {
                             <div className="card port-card h-100">
                                 <img src={PrimeiroPortifolio} class="card-img-top" alt="..." />
                                 <div className="card-body flex-body-center">
-                                    <div>
+                                    <div className="card-content">
                                         <h5 className="card-title">1° Portfólio</h5>
                                         <p className="card-text">O objetivo foi mostrar minhas habilidades e experiência na área de programação conquistados na época que desenvolvi.</p>
                                     </div>
@@ -168,7 +168,7 @@ function Portfolio() {
                             <div className="card port-card h-100">
                                 <img src={SDS3} class="card-img-top" alt="..." />
                                 <div className="card-body flex-body-center">
-                                    <div>
+                                    <div className="card-content">
                                         <h5 className="card-title">Semana DevSuperior 3</h5>
                                         <p className="card-text">Projeto elaborado na semana de conhecimento DevSuperior 3 com o professor Nélio Alves.</p>
                                     </div>
@@ -184,7 +184,7 @@ function Portfolio() {
                             <div className="card port-card h-100">
                                 <img src={CriandoRotas} class="card-img-top" alt="..." />
                                 <div className="card-body flex-body-center">
-                                    <div>
+                                    <div className="card-content">
                                         <h5 className="card-title">Criando Rotas ReactJS</h5>
                                         <p className="card-text">Criando rotas para navegação e troca de componentes no ReactJS.</p>
                                     </div>
@@ -195,12 +195,12 @@ function Portfolio() {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col flex-center mt-4">
                             <div className="card port-card h-100">
                                 <img src={Projeto} class="card-img-top" alt="..." />
                                 <div className="card-body flex-body-center">
-                                    <div>
+                                    <div className="card-content">
                                         <h5 className="card-title">ByteBank - OO</h5>
                                         <p className="card-text">Curso de Orientação a Objetos com JavaScript - Alura.</p>
                                     </div>
@@ -218,7 +218,7 @@ function Portfolio() {
                             <div className="card port-card h-100">
                                 <img src={Projeto} class="card-img-top" alt="Semana DevSuperior 2" />
                                 <div className="card-body flex-body-center">
-                                    <div>
+                                    <div className="card-content">
                                         <h5 className="card-title">Ceep - Cadastro de Notas</h5>
                                         <p className="card-text">Sistema de cadastro de notas desenvolvido como aprendizado na Alura.</p>
                                     </div>
@@ -234,7 +234,7 @@ function Portfolio() {
                             <div className="card port-card h-100">
                                 <img src={CaminhoDoSaber} class="card-img-top" alt="Pousada Secreta" />
                                 <div className="card-body flex-body-center">
-                                    <div>
+                                    <div className="card-content">
                                         <h5 className="card-title">Caminho do Saber - FreeLancer</h5>
                                         <p className="card-text">Site da Escola educacional inovadora Caminho do Saber.</p>
                                     </div>
@@ -250,7 +250,7 @@ function Portfolio() {
                             <div className="card port-card h-100">
                                 <img src={FrutaEFruto} class="card-img-top" alt="..." />
                                 <div className="card-body flex-body-center">
-                                    <div>
+                                    <div className="card-content">
                                         <h5 className="card-title">Fruta & Fruto</h5>
                                         <p className="card-text">Site desenvolvido em aula na plataforma Alura tendo como aprendizado principal o Bootstrap 4.3.</p>
                                     </div>
@@ -260,7 +260,7 @@ function Portfolio() {
                                     </div>
                                 </div>
                             </div>
-                        </div>                        
+                        </div>
 
 
                     </div>
