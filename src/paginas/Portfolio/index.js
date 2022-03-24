@@ -22,7 +22,7 @@ function Portfolio() {
             <Navbar />
 
             <div className="bd-example carousel-estilo">
-                <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel" data-interval="3000">
+                <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel" data-interval="1500">
                     <ol className="carousel-indicators">
                         <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -33,68 +33,32 @@ function Portfolio() {
                         <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
                     </ol>
                     <div className="carousel-inner">
-
                         <div className="carousel-item active">
                             <img src={SDS2} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block texto-carousel">
-                                <a href="https://sds2-raphael-santiago.netlify.app/" className="carousel-link" target="_blank" rel="noreferrer">
-                                    <h5>Semana DevSuperior 2</h5>
-                                </a>
-                            </div>
                         </div>
 
                         <div className="carousel-item">
                             <img src={PousadaSecreta} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block texto-carousel">
-                                <a href="https://raphaelsant.github.io/PousadaSecreta/" className="carousel-link" target="_blank" rel="noreferrer">
-                                    <h5>Pousada Secreta</h5>
-                                </a>
-                            </div>
                         </div>
 
                         <div className="carousel-item">
                             <img src={PrimeiroPortifolio} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block texto-carousel">
-                                <a href="https://raphaelsant.github.io/Portfolio/" className="carousel-link" target="_blank" rel="noreferrer">
-                                    <h5>1° Portfólio</h5>
-                                </a>
-                            </div>
                         </div>
 
                         <div className="carousel-item">
                             <img src={SDS3} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block texto-carousel">
-                                <a href="https://dsvendas-raphaelsantiago.netlify.app/" className="carousel-link" target="_blank" rel="noreferrer">
-                                    <h5>Semana DevSuperior 3</h5>
-                                </a>
-                            </div>
                         </div>
 
                         <div className="carousel-item">
                             <img src={CriandoRotas} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block texto-carousel">
-                                <a href="https://criandorotas.netlify.app/" className="carousel-link" target="_blank" rel="noreferrer">
-                                    <h5>Criando Rotas ReactJS</h5>
-                                </a>
-                            </div>
                         </div>
 
                         <div className="carousel-item">
                             <img src={CaminhoDoSaber} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block texto-carousel">
-                                <a href="https://caminhodosaber.netlify.app/" className="carousel-link" target="_blank" rel="noreferrer">
-                                    <h5>Caminho do Saber - FreeLancer</h5>
-                                </a>
-                            </div>
                         </div>
 
                         <div className="carousel-item">
                             <img src={FrutaEFruto} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block texto-carousel">
-                                <a href="https://raphaelsant.github.io/Fruta-e-Fruto/" className="carousel-link" target="_blank" rel="noreferrer">
-                                    <h5>Fruta & Fruto</h5>
-                                </a>
-                            </div>
                         </div>
                     </div>
                     <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -235,7 +199,7 @@ function Portfolio() {
                                 <img src={CaminhoDoSaber} class="card-img-top" alt="Pousada Secreta" />
                                 <div className="card-body flex-body-center">
                                     <div className="card-content">
-                                        <h5 className="card-title">Caminho do Saber - FreeLancer</h5>
+                                        <h5 className="card-title">Caminho do Saber</h5>
                                         <p className="card-text">Site da Escola educacional inovadora Caminho do Saber.</p>
                                     </div>
                                     <div>

@@ -7,41 +7,10 @@
     margin: 64px auto 0 auto;
 }
 
-.carousel-control-next, .carousel-control-prev {
-    background: #cc4020;
-}
-
-.carousel-indicators li {
-    background-color: #cc4020 !important;
-}
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    width: 40px !important;
-    height: 20px !important;
-}
-
 .carousel-estilo img {
     height: 300px;
-    object-fit: cover;
+    object-fit: contain;
     opacity: 1;
-}
-
-.carousel-link {
-    color: #fff;
-}
-
-.carousel-link:hover {
-    color: rgb(214, 214, 214);
-    text-decoration: none;
-}
-
-.texto-carousel {
-    background: rgba(204, 64, 32, 0.5);
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-}
-.texto-carousel:hover {
-    background: rgba(204, 64, 32, 0.9);
 }
 
 .port-titulo {
@@ -53,15 +22,26 @@
     font-size: 24px;
     color: #cc4020;
 }
+.port-sub-titulo:hover {
+    text-shadow: 0px 0px 20px #cc4020, 1px 2px 5px rgb(0 0 0 / 50%);
+}
 
 .card {
-    background-color: #D7D9D8;
+    backdrop-filter: blur(20px);
+    background-color: rgba(138, 96, 61, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 0px rgba(255,255,255,0.4) solid;
+    border-bottom: 0px rgba(40,40,40,0.35) solid;
+    border-right: 0px rgba(40,40,40,0.35) solid;
+    text-shadow: 0px 0px 5px black, 1px 2px 5px rgb(0 0 0 / 50%);
+    border-radius: 15px !important;
 }
 
 .card-img-top {
     width: 100%;
     height: 150px;
-    object-fit: cover;   
+    object-fit: cover;
+    border-radius: 15px 15px 5px 5px;
 }
 
 .card-content {
@@ -73,14 +53,14 @@
 }
 
 .card-title {
-    color: black;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
 }
-.card-text {
-    color: black;
-    text-align: justify;
-}
+
 .btn-primary.disabled, .btn-primary:disabled {
-    background-color: #cc4020;
+    background-color: #c25b44;
 }
 
 .btn-dark:focus {
