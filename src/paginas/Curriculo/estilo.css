@@ -1,10 +1,61 @@
+.profile-curriculo {
+    border-radius: 50%;
+    background-color: #A6351C;
+    padding: 15px;
+}
+.port-titulo {
+    position: absolute;
+    bottom: 0px;
+    left: 48%;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #A6351C;
+}
+
 .curriculo-titulo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 90px;
     color: #D7D9D8;
 }
 
+.curriculo-content {
+    padding: 15px;
+    background-color: rgba(166, 53, 28, 0.4);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
 .curriculo-subtitulo {
+    margin: 0;
     color: #D7D9D8;
+    font-size: 20px;
+    font-weight: bold;
+}
+.curriculo-texto {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #D7D9D8;
+    line-height: 1.5;
+    text-align: justify;
+}
+.exp-subtitulo {
+    margin: 0 0 15px 0;
+    color: #D7D9D8;
+    font-size: 20px;
+    font-weight: bold;
+}
+.exp-titulo {
+    color: #D7D9D8;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #db4726, 1px 2px 5px rgb(0 0 0 / 50%);
+    margin-bottom: 5px;
+}
+.exp-texto {
+    color: #D7D9D8;
+    line-height: 1.5;
 }
 
 .cor-card {

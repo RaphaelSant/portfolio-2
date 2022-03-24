@@ -73,7 +73,7 @@ function Portfolio() {
             </div>
 
             <div className="mt-4 container-fluid">
-                <h1 className="port-titulo text-center">Projetos no GitHub</h1>
+                <h1 className="projetos-titulo text-center">Projetos no GitHub</h1>
 
                 <div className="row justify-content-center mt-1">
 
