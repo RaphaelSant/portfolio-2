@@ -1,108 +1,133 @@
-.profile-curriculo {
-    border-radius: 50%;
-    background-color: #A6351C;
-    padding: 15px;
+.cv-profile {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D7D9D8;
+    margin-top: 90px;
 }
-.port-titulo {
+.cv-profile-img {
+    border-radius: 50%;
+    background-color: rgb(166, 53, 28);
+    padding: 15px;
+    z-index: 1;
+}
+.cv-profile-titulo {
+    width: 320px;
     position: absolute;
     bottom: 0px;
     left: 48%;
     padding: 15px;
     border-radius: 50px;
-    background-color: #A6351C;
+    background-color: rgb(166, 53, 28);
+    padding-left: 120px;
+    margin-left: -18px;
+    z-index: 0;
 }
-
-.curriculo-titulo {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 90px;
-    color: #D7D9D8;
-}
-
-.curriculo-content {
+/*Perfil fim*/
+.cv-content {
     padding: 15px;
     background-color: rgba(166, 53, 28, 0.4);
     border-radius: 15px;
     margin-top: 20px;
 }
-
-.curriculo-subtitulo {
+.cv-h2 {
     margin: 0;
     color: #D7D9D8;
     font-size: 20px;
     font-weight: bold;
 }
-.curriculo-texto {
-    font-size: 18px;
-    margin-top: 10px;
+.cv-texto {
+    font-size: 16px;
     color: #D7D9D8;
     line-height: 1.5;
     text-align: justify;
 }
-.exp-subtitulo {
-    margin: 0 0 15px 0;
+.cv-separator {
+    background-color: #db4726;
+}
+.cv-subtitle {
     color: #D7D9D8;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
-.exp-titulo {
-    color: #D7D9D8;
-    font-weight: bold;
-    text-shadow: 0px 0px 5px #db4726, 1px 2px 5px rgb(0 0 0 / 50%);
-    margin-bottom: 5px;
+
+.cv-cursos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
-.exp-texto {
+.cv-table {
+    width: 100%;
+    margin: 5px;
+}
+.cv-tbcoluna {
+    background-color: #A6351C;
+    border: 1px solid #db4726;
+    padding: 15px;
+    position: relative;
+}
+.cv-tbtext {
+    text-align: center;
+}
+.cv-link {
     color: #D7D9D8;
-    line-height: 1.5;
+    background-color: #db4726;
+    border-radius: 5px;
+    padding: 8px 30px;
+    display: block;
+    text-align: center;
+    transition: 0.2s;
+}
+.cv-link:hover {
+    color: #D7D9D8;
+    background-color: #cf4424;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 5px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
 }
 
-.cor-card {
-    background-color: #D7D9D8;
-}
-
-.cor-card-skills {
+.cv-softskills {
     background-color: #A6351C;
     color: #D7D9D8;
     transition: 0.5s;
 }
-
-.cor-card-skills-active:hover {
-    background-color: #db4726;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    color: #D7D9D8;
+.cv-list {
+    margin-left: 20px;
+    list-style-type: disc;
 }
 
-.p-title {
-    text-decoration: underline;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.bnt-curriculo {
+.bnt-cv {
     width: 100%;
     background-color: #A6351C;
     margin-top: 20px;
     height: 80px;
-    border-radius: 5px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
+    color: #D7D9D8;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
-
-.bnt-curriculo a {
+.bnt-cv:hover {
+    background-color: rgb(199, 66, 36);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
     text-decoration: none;
     color: #D7D9D8;
 }
+.bnt-cv:active {
+    background-color: #A6351C;
+}
 
-.bnt-curriculo:hover {
-    background-color: #db4726;
-    box-shadow: rgba(199, 2, 2, 0.35) 0px -28px 36px -50px inset;
+@media (max-width: 767px) {
+    .cv-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
 }
