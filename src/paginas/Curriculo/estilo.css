@@ -1,3 +1,8 @@
+.cv-profileContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .cv-profile {
     position: relative;
     display: flex;
@@ -129,5 +134,29 @@
         display: block;
         overflow-x: auto;
         white-space: nowrap;
+    }
+    .cv-profileContainer {
+        justify-content: center;
+    }
+    .cv-profile {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #D7D9D8;
+        margin-top: 90px;
+    }
+    .cv-profile-titulo {
+        width: auto;
+        text-align: center;
+        position: relative;
+        bottom: auto;
+        left: auto;
+        padding: 15px;
+        border-radius: 50px;
+        background-color: rgb(166, 53, 28);
+        margin-left: 0px;
+        margin-top: -14px;
+        z-index: 1;
     }
 }

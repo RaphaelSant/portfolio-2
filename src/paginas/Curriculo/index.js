@@ -22,9 +22,12 @@ function Curriculo() {
             {/*smoothscroll()*/}
             <Navbar />
             <div className="container mb-4">
-                <div className="cv-profile">
-                    <img src={Profile} alt="Imagem de perfil" className="cv-profile-img" />
-                    <h1 className="cv-profile-titulo">Raphael Moura Santiago</h1>
+                <div className="cv-profileContainer">
+                    <div className="cv-profile">
+                        <img src={Profile} alt="Imagem de perfil" className="cv-profile-img" />
+                        <h1 className="cv-profile-titulo">Raphael Moura Santiago</h1>
+                    </div>
+
                 </div>
 
                 <div className="cv-content">
